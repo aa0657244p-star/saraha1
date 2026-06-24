@@ -1,0 +1,22 @@
+{
+  "name": "sraha-app-offline",
+  "version": "1.0.0",
+  "description": "Messaging Application",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "crypto-js": "^4.2.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
